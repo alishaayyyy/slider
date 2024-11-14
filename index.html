@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./app.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <!-- <div class="slider">
+    <img 
+    id="slider-img"
+    src="https://cdn.magicdecor.in/com/2024/02/08155013/The-Bike-Rider-Wallpaper-for-Wall.jpg" alt="">
+
+<div onclick="prev()" class="left-arrow"><i class="fa-solid fa-less-than"></i></div>
+<div onclick="next()" class="right-arrow"><i class="fa-solid fa-greater-than"></i></div> -->
+
+
+ <!-- Slider Container -->
+ <div class="slider">
+  <img id="slider-img" src="https://cdn.magicdecor.in/com/2024/02/08155013/The-Bike-Rider-Wallpaper-for-Wall.jpg" alt="Slider Image">
+  
+  <!-- Previous and Next Buttons -->
+  <button class="button prev" onclick="changeImage(-1)">&#10094;</button>
+  <button class="button next" onclick="changeImage(1)">&#10095;</button>
+</div>
+
+ <!-- //Dots Navigation -->
+<div class="dots-container">
+  <div class="dot" onclick="document.getElementById('slider-img').src=`https://cdn.magicdecor.in/com/2024/02/08155013/The-Bike-Rider-Wallpaper-for-Wall.jpg`"></div>
+  <div class="dot" onclick="document.getElementById('slider-img').src='https://static.vecteezy.com/system/resources/previews/027/533/480/non_2x/car-or-bike-smokie-background-realistic-ai-generative-free-photo.jpg'"></div>
+  <div class="dot" onclick="document.getElementById('slider-img').src='https://c4.wallpaperflare.com/wallpaper/96/926/535/road-neon-motorcycle-moto-wallpaper-preview.jpg'"></div>
+  <div class="dot" onclick="document.getElementById('slider-img').src='https://static.vecteezy.com/system/resources/thumbnails/033/692/783/small_2x/motorcycle-rider-rides-on-a-race-track-at-sunset-motion-blur-motorcycle-rider-on-sport-bike-rides-fast-on-race-track-at-sunset-extreme-athlete-sport-motorcycles-racing-ai-generated-free-photo.jpg'"></div>
+</div>
+
+
+
+</div>
+
+
+
+  <script src="./app.js"></script>
+</body>
+</html>
